@@ -16,7 +16,7 @@ public class For {
             bl.add(BigInteger.probablePrime(100, rnd));
         }
 
-        for (long i = 0; i < Long.MAX_VALUE; i ++) {
+        for (long i = 0; i < Long.MAX_VALUE; ++i) {
             for (int j = 0; j < bl.size(); ++j) {
                 BigInteger b = bl.get(j);
             }

@@ -16,7 +16,7 @@ public class ForEach {
             bl.add(BigInteger.probablePrime(100, rnd));
         }
 
-        for (long i = 0; i < Long.MAX_VALUE; i ++) {
+        for (long i = 0; i < Long.MAX_VALUE; ++i) {
             for (BigInteger bi : bl) {
 
             }
